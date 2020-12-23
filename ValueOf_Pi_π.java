@@ -29,8 +29,8 @@ public class ValueOf_Pi_π {
 
 
     public static void main(String[] args) {
-        ValueOf_Pi_π piΠ = new ValueOf_Pi_π();
-        piΠ.piValueMethod();
+        ValueOf_Pi_π pi_Π = new ValueOf_Pi_π();
+        pi_Π.piValueMethod();
         }
 
     }
