@@ -1,11 +1,14 @@
 package Chapter5;
 
+import javax.swing.*;
+
 public class Diamond {
     int line;
     int space;
     int asterisks;
 
     public void printDiamondMethod() {
+
 
         for (line = 1; line <= 18; line += 2) {
             if (line >= 11) {
