@@ -1,4 +1,5 @@
-import java.util.Arrays;
+package Chapter5;
+
 import java.util.Scanner;
 
 public class DaysOfChristmas {
@@ -7,7 +8,7 @@ public class DaysOfChristmas {
         Scanner input = new Scanner(System.in);
         System.out.println("enter any day between 1-12");
         int day = input.nextInt();
-        if (day == 1 || day == 2 || day == 3 || day == 4 || day == 5 || day == 6 || day == 7 || day == 8 || day == 9 || day == 10 || day == 11 || day == 12) {
+        if (day>=1 && day<=12) {
             switch (day) {
                 case 12:
                     if (day == 12) {
