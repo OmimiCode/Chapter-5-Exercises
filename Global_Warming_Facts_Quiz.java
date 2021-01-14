@@ -10,7 +10,6 @@ public class Global_Warming_Facts_Quiz {
         String q1;
         q1 = JOptionPane.showInputDialog(null,
                 "1. Globally, which of the following economic sectors emits \n" +
-                        "\n" +
                         "the largest percentage of greenhouse gas emissions? \n" +
                         "(A) Transportation\n" +
                         "(B) Buildings\n" +

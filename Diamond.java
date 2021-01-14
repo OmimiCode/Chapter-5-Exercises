@@ -6,10 +6,7 @@ public class Diamond {
     int line;
     int space;
     int asterisks;
-
     public void printDiamondMethod() {
-
-
 //        for (line = 1; line <= 18; line += 2) {
 //            if (line >= 11) {
 //                for (space = 11; space <= line; space += 2) {
@@ -31,8 +28,6 @@ public class Diamond {
 //            }
 //        }
 //    }
-
-
 
         //REFACTORED
 
@@ -56,14 +51,8 @@ public class Diamond {
         }
     }               //REFACTORED END
 
-
-
-
         public static void main (String[]args){
             Diamond diamond = new Diamond();
             diamond.printDiamondMethod();
         }
     }
-
-
-

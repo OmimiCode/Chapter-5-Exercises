@@ -8,6 +8,7 @@ public class DaysOfChristmas {
         Scanner input = new Scanner(System.in);
         System.out.println("enter any day between 1-12");
         int day = input.nextInt();
+
         if (day>=1 && day<=12) {
             switch (day) {
                 case 12:
